@@ -18,7 +18,16 @@ cp .env.example .env
 ```
 
 ### 4. Configure environment (Edit .env file)
-Set database credentials
+Set database credentials:
+
+```
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=trading_platform
+DB_USERNAME=root
+DB_PASSWORD=
+```
 
 Set Pusher credentials:
 
